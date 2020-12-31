@@ -1,0 +1,30 @@
+{
+    "name": "literouter/literouter",
+    "description": "PSR-7 routing framework.",
+    "keywords": [
+        "Lite Router",
+        "PSR-7",
+        "PSR-7 Router"
+    ],
+    "authors": [
+        {
+            "name": "Matthew O. Bisnar",
+            "email": "matthewotarrabisnar@gmail.com",
+            "homepage": "https://matthewobisnar.github.io/matthewbisnar/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/matthewobisnar/LiteRouter",
+        "wiki": "https://github.com/matthewobisnar/LiteRouter/wiki",
+        "issues": "https://github.com/matthewobisnar/LiteRouter/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "LiteRouter\\" : "src/LiteRouter/",
+            "LiteRouter\\Controllers\\": "src/Controllers/",
+            "LiteRouter\\Http\\": "src/Http/",
+            "LiteRouter\\Exceptions\\":"src/Exceptions"
+        }
+    }
+}
